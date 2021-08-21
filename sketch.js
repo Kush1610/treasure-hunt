@@ -21,7 +21,7 @@ function preload() {
 function setup() {
   createCanvas(1400,700);
   system = new System()
-  security = new Security()
+
 
   playb = createSprite(700,600, 50, 50);
   playb.addImage("Iss",playbImg);
